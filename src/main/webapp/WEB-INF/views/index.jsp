@@ -12,5 +12,6 @@
 </head>
 <body>
 <a href="/save" type="text" >도서등록</a>
+<a href="/findBook" type="text" >2번책선택</a>
 </body>
 </html>

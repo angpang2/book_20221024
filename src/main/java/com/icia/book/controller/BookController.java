@@ -29,6 +29,13 @@ public class BookController {
         }
     }
 
+    @GetMapping("/findBook")
+    private String findBook(Model model){
+        BookDTO findResult = bookService.findBook();
+        model.addAttribute("book",findResult);
+        return "findBook";
+    }
+
 
 
 
